@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- JavaScript -->
+  <script src="./js/script.js" defer></script>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <title>Pedra, Papel e Tesoura ✊🖐️✌️ | Bruno H</title>
+</head>
+
+<body>
+  <div class="game">
+    <header>
+      <div class="player-health">
+        <div class="player-health-bar player-1-health-bar"></div>
+        <span>Player 1</span>
+      </div>
+
+      <div class="timer">
+        <span>60</span>
+      </div>
+
+      <div class="player-health">
+        <div class="player-health-bar player-2-health-bar"></div>
+        <span class="player-health-2">Player 2</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="game-feedback">
+        <span class="message"></span>
+      </div>
+
+      <div>
+        <span class="player player-1">🤜</span>
+      </div>
+
+      <div>
+        <span>VS</span>
+      </div>
+
+      <div>
+        <span class="player player-2">🤛</span>
+      </div>
+
+    </main>
+
+    <footer>
+      <button type="button" class="game-btn play-btn" data-option="Pedra">
+          <span>Pedra</span>
+      </button>
+      <button type="button" class="game-btn play-btn" data-option="Papel">
+          <span>Papel</span>
+      </button>
+      <button type="button" class="game-btn play-btn" data-option="Tesoura">
+          <span>Tesoura</span>
+      </button>
+      <button type="button" class="game-btn reset-btn">
+          <span>Reset</span>
+      </button>
+  </footer>
+
+  </div>
+</body>
+
+</html>
